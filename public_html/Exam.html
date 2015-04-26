@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Submit Album</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        a:hover, a:active, a:focus {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form role="form" class="form-horizontal">
+            <div class="container">
+                <div class="form-group">
+                    <label for="name" class="control-label col-sm-3">Name:</label>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </span>
+                            <input type="text" name="name" id="name" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group has-error has-feedback">
+                <label for="address" class="control-label col-md-3">Address:</label>
+                <div class="col-md-6">
+                    <input type="text" name="address" id="address" class="form-control" />
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
